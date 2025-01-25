@@ -8,4 +8,3 @@ class Solution:
         for i in range(len(duplicates)):
             nums.append(duplicates[i])
         return len(duplicates)
-        
