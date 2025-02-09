@@ -1,7 +1,7 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         counter = 0
-        greatest_amount= 0
+        greatest_amount = 0
         greatest_number = 0
         nums.sort()
         for i in range(len(nums)):
